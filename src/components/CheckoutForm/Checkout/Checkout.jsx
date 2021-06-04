@@ -46,6 +46,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
         <Typography variant="subtitle2">Order ref: {order.customer_reference}</Typography>
       </div>
       <br />
+      <br />
       <Button component={Link} to='/' variant="outlined" type="button">Back to Home</Button>
     </>
   ) : (
